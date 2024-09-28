@@ -1,0 +1,6 @@
+@FakeUsers.Server_HostAddress = http://localhost:5010
+
+GET {{FakeUsers.Server_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
